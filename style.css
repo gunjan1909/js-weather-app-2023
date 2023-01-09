@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 *,
 *::after,
 *::before {
@@ -9,6 +11,7 @@ body {
   background-color: hsl(200, 100%, 85%);
   color: hsl(200, 100%, 10%);
   font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .blurred {
@@ -70,7 +73,7 @@ body {
 }
 
 .value-sub-info {
-  font-weight: lighter;
+  font-weight: light;
   font-size: 0.75rem;
 }
 
