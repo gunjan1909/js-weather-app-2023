@@ -6,6 +6,27 @@
   box-sizing: border-box;
 }
 
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  background-clip: padding-box;
+  padding: 1px !important;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 34, 51, 0.45);
+  border-radius: 10px;
+  background-clip: padding-box;
+  padding: 1px !important;
+}
+/* SCROLLBAR END */
+
 body {
   margin: 0;
   background-color: hsl(200, 100%, 85%);
